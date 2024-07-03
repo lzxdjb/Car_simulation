@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/matrix_valid.dir/matrix_valid.cpp.o -o matrix_valid  ../src/tinympc/libtinympc.a 

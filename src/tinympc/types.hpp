@@ -1,7 +1,7 @@
 #pragma once
 
 
-#include <Eigen.h>
+#include <Eigen/Dense>
 
 using namespace Eigen;
 

@@ -100,7 +100,7 @@ void graph_max_cpu(double *data)
         work.x.col(0) = x0;
 
         // 2. Update reference
-        work.Xref = Xref_total.block<NSTATES, NHORIZON>(0, k);
+        work.Xref = Xref_total.block<NSTATES, NHORIZON>(0, 1);
 
         // 3. Reset dual variables if needed
         work.y = tiny_MatrixNuNhm1::Zero();

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/CMakeFiles/pybind11-populate"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/CMakeFiles/pybind11-populate.rule"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/CMakeFiles/pybind11-populate-complete.rule"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-build.rule"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-configure.rule"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-download.rule"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-install.rule"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-mkdir.rule"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-patch.rule"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-test.rule"
+		},
+		{
+			"file" : "/media/lzx/lzx/lzx/car_simulation/TinyMPCApi/generated_code/build/temp.linux-x86_64-cpython-311/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pybind11-populate"
+		],
+		"name" : "pybind11-populate"
+	}
+}

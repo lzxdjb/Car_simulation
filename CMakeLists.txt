@@ -4,7 +4,7 @@ project(TinyMPC VERSION 0.2.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include_directories(include/Eigen)
+include_directories("/usr/include/eigen3")
 
 add_subdirectory(src/tinympc)
 add_subdirectory(examples)

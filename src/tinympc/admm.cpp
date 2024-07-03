@@ -76,7 +76,7 @@ extern "C"
      */
     void update_linear_cost(TinySolver *solver)
     {
-        solver->work->r = -(solver->work->Uref.array().colwise() * solver->work->R.array()); // Uref = 0 so commented out for speed up. Need to uncomment if using Uref
+        // solver->work->r = -(solver->work->Uref.array().colwise() * solver->work->R.array()); // Uref = 0 so commented out for speed up. Need to uncomment if using Uref
         (solver->work->r).noalias() -= solver->cache->rho * (solver->work->znew - solver->work->y);
         solver->work->q = -(solver->work->Xref.array().colwise() * solver->work->Q.array());
         (solver->work->q).noalias() -= solver->cache->rho * (solver->work->vnew - solver->work->g);
@@ -116,19 +116,19 @@ extern "C"
 
         for (int i = 0; i < solver->settings->max_iter; i++)
         {
-            // Solve linear system with Riccati and roll out to get new trajectory
+            // // Solve linear system with Riccati and roll out to get new trajectory
             forward_pass(solver);
 
-            // Project slack variables into feasible domain
+            // // Project slack variables into feasible domain
             update_slack(solver);
 
-            // Compute next iteration of dual variables
+            // // Compute next iteration of dual variables
             update_dual(solver);
 
-            // Update linear control cost terms using reference trajectory, duals, and slack variables
+            // // Update linear control cost terms using reference trajectory, duals, and slack variables
             update_linear_cost(solver);
 
-            // Check for whether cost is ~minimized~ by calculating residuals
+            // // Check for whether cost is ~minimized~ by calculating residuals
             if (termination_condition(solver)) {
                 solver->work->status = 1; // TINY_SOLVED
                 return 0;

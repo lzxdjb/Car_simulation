@@ -64,6 +64,13 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "*.inc": "cpp",
+        "dense": "cpp",
+        "strstream": "cpp",
+        "codecvt": "cpp",
+        "cfenv": "cpp",
+        "iterativelinearsolvers": "cpp",
+        "threadpool": "cpp"
     }
 }
